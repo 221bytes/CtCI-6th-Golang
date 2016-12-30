@@ -15,7 +15,7 @@ func IsUnique(str string) bool {
 	return true
 }
 
-// IsUniqueNoAllocation solve the problem by using one byte
+// IsUniqueNoAllocation solve the problem by using one byte. Can be only 'a' < x < 'z'
 func IsUniqueNoAllocation(str string) bool {
 	if len(str) > 26 {
 		return false
